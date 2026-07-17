@@ -15,7 +15,7 @@ jobs:
       matrix:
         node-version: [18, 20, 22]                      
         os: [ubuntu-latest, windows-latest]      
-      fail-fast: false   # Continúa aunque una versión falle
+      fail-fast: false
 
     steps:
       - name: 📥 Checkout
